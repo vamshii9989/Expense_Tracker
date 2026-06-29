@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - expense-net
+
+  expense-app:
+    build: .
+    container_name: expense-app
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017
+      - MONGO_DB_NAME=expense_tracker_db
+    networks:
+      - expense-net
+    stdin_open: true   # equivalent to -i, needed for console input
+    tty: true           # equivalent to -t, needed for console input
+
+networks:
+  expense-net:
+
+volumes:
+  mongo-data:
