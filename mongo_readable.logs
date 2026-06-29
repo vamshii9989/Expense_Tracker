@@ -1,0 +1,210 @@
+================================================================================
+  MONGODB CONTAINER LOG - HUMAN READABLE SUMMARY
+================================================================================
+
+[2026-06-29 15:51:48] [INFO ] [NETWORK   ] Initialized wire specification 
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none' 
+[2026-06-29 15:51:48] [INFO ] [NETWORK   ] Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set tcpFastOpenServer, tcpFastOpenClient, and tcpFastOpenQueueSize. 
+[2026-06-29 15:51:48] [INFO ] [REPL      ] Successfully registered PrimaryOnlyService -> config.tenantMigrationDonors
+[2026-06-29 15:51:48] [INFO ] [REPL      ] Successfully registered PrimaryOnlyService -> config.tenantMigrationRecipients
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] Multi threading initialized 
+[2026-06-29 15:51:48] [INFO ] [TENANT_M  ] Starting TenantMigrationAccessBlockerRegistry 
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] MongoDB starting -> port 27017 ssl=?
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] Build Info 
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] Operating System 
+[2026-06-29 15:51:48] [INFO ] [CONTROL   ] Options set by command line 
+[2026-06-29 15:51:48] [INFO ] [STORAGE   ] Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem 
+[2026-06-29 15:51:48] [INFO ] [STORAGE   ] Opening WiredTiger 
+[2026-06-29 15:51:49] [INFO ] [WTRECOV   ] WiredTiger message -> recovery log replay has successfully finished and ran for 0 milliseconds
+[2026-06-29 15:51:49] [INFO ] [WTRECOV   ] WiredTiger message -> Set global recovery timestamp: (0, 0)
+[2026-06-29 15:51:49] [INFO ] [WTRECOV   ] WiredTiger message -> Set global oldest timestamp: (0, 0)
+[2026-06-29 15:51:49] [INFO ] [WTRECOV   ] WiredTiger message -> recovery was completed successfully and took 1ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint.
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] WiredTiger opened -> took 646ms
+[2026-06-29 15:51:49] [INFO ] [RECOVERY  ] WiredTiger recoveryTimestamp 
+[2026-06-29 15:51:49] [WARN ] [CONTROL   ] Access control is not enabled for the database. Read and write access to data and configuration is unrestricted 
+[2026-06-29 15:51:49] [WARN ] [CONTROL   ] Soft rlimits for open file descriptors too low 
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] createCollection -> admin.system.version
+[2026-06-29 15:51:49] [INFO ] [INDEX     ] Index build: done building -> admin.system.version
+[2026-06-29 15:51:49] [INFO ] [REPL      ] Setting featureCompatibilityVersion -> v7.0
+[2026-06-29 15:51:49] [INFO ] [REPL      ] current featureCompatibilityVersion value 
+[2026-06-29 15:51:49] [INFO ] [NETWORK   ] Updated wire specification 
+[2026-06-29 15:51:49] [INFO ] [NETWORK   ] Updated wire specification 
+[2026-06-29 15:51:49] [INFO ] [REPL      ] current featureCompatibilityVersion value 
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] Clearing temp directory 
+[2026-06-29 15:51:49] [INFO ] [CONTROL   ] Initializing cluster server parameters from disk 
+[2026-06-29 15:51:49] [INFO ] [CONTROL   ] Flow Control is enabled on this deployment 
+[2026-06-29 15:51:49] [INFO ] [FTDC      ] Initializing full-time diagnostic data capture 
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] createCollection -> local.startup_log
+[2026-06-29 15:51:49] [INFO ] [INDEX     ] Index build: done building -> local.startup_log
+[2026-06-29 15:51:49] [INFO ] [REPL      ] Setting new configuration state 
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] Timestamp monitor starting 
+[2026-06-29 15:51:49] [INFO ] [NETWORK   ] Listening on -> /tmp/mongodb-27017.sock
+[2026-06-29 15:51:49] [INFO ] [NETWORK   ] Listening on -> 0.0.0.0
+[2026-06-29 15:51:49] [INFO ] [NETWORK   ] Waiting for connections -> port 27017 ssl=off
+[2026-06-29 15:51:49] [INFO ] [CONTROL   ] mongod startup complete 
+[2026-06-29 15:51:49] [INFO ] [STORAGE   ] createCollection -> config.system.sessions
+[2026-06-29 15:51:49] [INFO ] [CONTROL   ] Sessions collection is not set up; waiting until next sessions reap interval -> WARNING: NamespaceNotFound: config.system.sessions does not exist
+[2026-06-29 15:51:49] [INFO ] [REPL      ] Added oplog entry for create to transaction -> config.$cmd
+[2026-06-29 15:51:49] [INFO ] [REPL      ] Added oplog entry for createIndexes to transaction -> config.$cmd
+[2026-06-29 15:51:49] [INFO ] [INDEX     ] Index build: done building -> config.system.sessions
+[2026-06-29 15:51:49] [INFO ] [INDEX     ] Index build: done building -> config.system.sessions
+[2026-06-29 15:52:24] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:47962 (conn#1, active=1)
+[2026-06-29 15:52:24] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:47964 (conn#2, active=2)
+[2026-06-29 15:52:24] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:52:24] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:52:24] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:52:24] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:52:38] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:48606 (conn#3, active=3)
+[2026-06-29 15:52:38] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:52:38] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:52:38] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:52:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 34, snapshot max: 34 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:52:54] [INFO ] [-         ] Interrupted operation as its client disconnected 
+[2026-06-29 15:52:54] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:47964 (conn#2, active=2)
+[2026-06-29 15:52:54] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:48606 (conn#3, active=1)
+[2026-06-29 15:52:54] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:47962 (conn#1, active=0)
+[2026-06-29 15:53:44] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53758 (conn#4, active=1)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53768 (conn#5, active=2)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53780 (conn#6, active=3)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53784 (conn#7, active=4)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53796 (conn#8, active=5)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:53798 (conn#9, active=6)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:53:45] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53796 (conn#8, active=5)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53768 (conn#5, active=4)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53780 (conn#6, active=3)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53784 (conn#7, active=2)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53798 (conn#9, active=1)
+[2026-06-29 15:53:45] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:53758 (conn#4, active=0)
+[2026-06-29 15:53:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 35, snapshot max: 35 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:54:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 36, snapshot max: 36 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:55:49] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:34958 (conn#10, active=1)
+[2026-06-29 15:55:49] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:34960 (conn#11, active=2)
+[2026-06-29 15:55:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:55:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:55:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:55:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:55:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 37, snapshot max: 37 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:56:43] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:37918 (conn#12, active=3)
+[2026-06-29 15:56:43] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:56:43] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:56:43] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:56:43] [INFO ] [STORAGE   ] createCollection -> expense_tracker_db.expenses
+[2026-06-29 15:56:43] [INFO ] [REPL      ] Added oplog entry for create to transaction -> expense_tracker_db.$cmd
+[2026-06-29 15:56:43] [INFO ] [INDEX     ] Index build: done building -> expense_tracker_db.expenses
+[2026-06-29 15:56:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 46, snapshot max: 46 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:57:01] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:37918 (conn#12, active=2)
+[2026-06-29 15:57:01] [INFO ] [-         ] Interrupted operation as its client disconnected 
+[2026-06-29 15:57:01] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:34960 (conn#11, active=1)
+[2026-06-29 15:57:01] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:34958 (conn#10, active=0)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:39860 (conn#13, active=1)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:57:06] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:39864 (conn#14, active=2)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:57:06] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:39866 (conn#15, active=3)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:39876 (conn#16, active=4)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:57:06] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:57:06] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:39884 (conn#17, active=5)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 15:57:06] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:39860 (conn#13, active=4)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:39866 (conn#15, active=3)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:39876 (conn#16, active=2)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:39864 (conn#14, active=1)
+[2026-06-29 15:57:06] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:39884 (conn#17, active=0)
+[2026-06-29 15:57:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 53, snapshot max: 53 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:58:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 55, snapshot max: 55 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 15:59:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 56, snapshot max: 56 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:00:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 57, snapshot max: 57 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:01:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 63, snapshot max: 63 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:02:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 64, snapshot max: 64 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:03:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 65, snapshot max: 65 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:04:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 66, snapshot max: 66 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:05:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 67, snapshot max: 67 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:06:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 68, snapshot max: 68 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:07:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 69, snapshot max: 69 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:08:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 70, snapshot max: 70 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:09:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 71, snapshot max: 71 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:10:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 72, snapshot max: 72 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:11:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 73, snapshot max: 73 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:12:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 74, snapshot max: 74 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:13:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 75, snapshot max: 75 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:14:29] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:52258 (conn#18, active=1)
+[2026-06-29 16:14:29] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:52256 (conn#19, active=2)
+[2026-06-29 16:14:29] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:14:29] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:14:29] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:14:29] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:14:47] [INFO ] [NETWORK   ] Connection accepted -> client 172.18.0.3:34946 (conn#20, active=3)
+[2026-06-29 16:14:47] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:14:47] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:14:47] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 16:14:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 76, snapshot max: 76 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:15:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 77, snapshot max: 77 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:16:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 81, snapshot max: 81 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:17:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 84, snapshot max: 84 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:18:19] [INFO ] [-         ] Interrupted operation as its client disconnected 
+[2026-06-29 16:18:19] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:34946 (conn#20, active=2)
+[2026-06-29 16:18:19] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:52258 (conn#18, active=1)
+[2026-06-29 16:18:19] [INFO ] [NETWORK   ] Connection ended -> client 172.18.0.3:52256 (conn#19, active=0)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:45022 (conn#21, active=1)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:18:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:45028 (conn#22, active=2)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:18:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:45040 (conn#23, active=3)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:45048 (conn#24, active=4)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:18:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:18:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection accepted -> client 127.0.0.1:45050 (conn#25, active=5)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] client metadata 
+[2026-06-29 16:18:49] [INFO ] [ACCESS    ] Connection not authenticating 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Received first command on ingress connection since session start or auth handshake 
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45022 (conn#21, active=4)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45028 (conn#22, active=3)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45048 (conn#24, active=2)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45040 (conn#23, active=1)
+[2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45050 (conn#25, active=0)
+[2026-06-29 16:18:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 87, snapshot max: 87 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:19:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 88, snapshot max: 88 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+
+================================================================================
+  SUMMARY
+================================================================================
+  Connections Opened  : 25
+  Connections Closed  : 25
+  Collections Created : admin.system.version, local.startup_log, config.system.sessions, expense_tracker_db.expenses
+  Warnings            : 2
+    WARNING  Soft rlimits for open file descriptors too low
+    WARNING  Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+  Errors              : None
+================================================================================
