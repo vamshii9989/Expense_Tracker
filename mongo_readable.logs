@@ -196,6 +196,9 @@
 [2026-06-29 16:18:49] [INFO ] [NETWORK   ] Connection ended -> client 127.0.0.1:45050 (conn#25, active=0)
 [2026-06-29 16:18:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 87, snapshot max: 87 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
 [2026-06-29 16:19:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 88, snapshot max: 88 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:20:49] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 89, snapshot max: 89 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:21:50] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 95, snapshot max: 95 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
+[2026-06-29 16:22:50] [INFO ] [WTCHKPT   ] WiredTiger message -> saving checkpoint snapshot min: 96, snapshot max: 96 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1
 
 ================================================================================
   SUMMARY
@@ -204,7 +207,7 @@
   Connections Closed  : 25
   Collections Created : admin.system.version, local.startup_log, config.system.sessions, expense_tracker_db.expenses
   Warnings            : 2
-    WARNING  Soft rlimits for open file descriptors too low
     WARNING  Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+    WARNING  Soft rlimits for open file descriptors too low
   Errors              : None
 ================================================================================
